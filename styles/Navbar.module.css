@@ -1,0 +1,39 @@
+.navbar{
+    background-color: rgb(243, 247, 248);
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 7%;
+}
+
+
+
+.navbar_right{
+    display: flex;
+}
+.navbar_links{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+    color:slategray
+}
+
+.navbar_links_cart{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+}
+.navbar_links_cart>p{
+    font-size:14px;
+    background-color:blue;
+    color:white;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-12px;
+}

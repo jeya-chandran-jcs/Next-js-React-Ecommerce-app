@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(15,15,17);
+}
+
+.footer_logo{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer_links_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_links{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}

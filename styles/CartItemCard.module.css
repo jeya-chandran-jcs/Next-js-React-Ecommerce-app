@@ -1,0 +1,111 @@
+.cart{
+    padding: 0 7%;
+    
+}
+
+.cart_title{
+    font-size:2rem;
+    margin:1rem 0 0 0;
+    font-weight:bold;
+}
+
+.cart_item_container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:2% 0;
+    border:3px solid rgb(209, 208, 208);
+    border-radius:10px;
+    padding:10px 0 10px 10px
+ 
+}
+
+
+
+.cart_item_title{
+    font-size:1.2rem;
+    font-weight:600;
+    margin:0 0 10px 0;
+    
+}
+
+.cart_item_category{
+    color:rgb(134, 130, 130);
+    font-size:1rem;
+    font-weight:400;
+    margin-bottom:10px;
+}
+
+.cart_item_description{
+    font-size:1rem;
+    font-weight:300;
+    margin: 0 0 10px 0;
+    text-wrap:wrap;
+}
+
+.cart_item_pricing{
+    display:flex;
+    /* justify-content:center; */
+    align-items:center;
+    column-gap:2rem;
+}
+
+.cart_item_price{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:green;
+    padding:20px 0;
+}
+
+.cart_item_discountPercentage{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:red;
+    /* padding:20px 0; */
+}
+
+.cart_item_ratings{
+    display:flex;
+    align-items:center;
+    gap:5px
+}
+
+
+.cart_item_rating{
+    font-size:1rem;
+    font-weight:300;
+}
+
+.cart_item_image{
+    height:200px;
+    width:300px;
+    object-fit:contain;
+}
+
+.cart_item_adding{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    column-gap:0.3rem;
+    /* font-size:1.5rem; */
+}
+
+.cart_item_icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:20px;
+    height:20px;
+    border:2px solid #504e4e;
+    border-radius:50%;
+    cursor:pointer;
+    transition:background-color 0.3s ease-in-out;
+}
+
+.cart_item_icon:hover {
+    background-color:#d8d1d1;
+}
+
+.cart_item_adding{
+    font-size:2rerm;
+}
